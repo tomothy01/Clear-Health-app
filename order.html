@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    .but3 {
+        background-color: rgb(38, 52, 245);
+        border: none;
+        font-size: 50px;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        color: white;
+        position: relative;
+        left: 100px;
+        top: 100px;
+    }
+
+    .but2 {
+        background-color: white;
+        font-size: 26px;
+        position: relative;
+        right: 15px;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .item {
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(38, 52, 245);
+        color: white;
+        text-align: left;
+        font-size: 20px;
+        position: relative;
+        right: 10px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .rec {
+        background-color: rgb(7, 205, 7);
+        font-size: 26px;
+        position: relative;
+        right: 15px;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+
+<body style="background-color: lightgray;">
+    <div class="contents" style="text-align: center;">
+        <button class="but3">?</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-size: 35px; position: relative; right: 30px;"><u>Request medication</u></h1>
+        <br>
+        <br>
+        <br>
+        <button class="item">
+            <label for="Pat" style="position: relative; top: -10px;">Patient name<input type="text"></label>
+            <br>
+            <label for="med" style="position: relative; top: -10px;">Type of medication<input type="text"></label>
+            <br>
+            <label for="Dos" style="position: relative; top: -10px;">Dosage<input type="text"></label>
+            <br>
+            <label for="Quantity" style="position: relative; top: -10px;">Quantity<input type="text"></label>
+            <br>
+            <label for="Doc" style="position: relative; top: -10px;">Prescribed by<input type="text"></label>
+            <br>
+            <label for="beg" style="position: relative; top: -10px;">Start date<input type="datetime"></label>
+            <br>
+            <label for="end" style="position: relative; top: -10px;">End date<input type="datetime"></label>
+        </button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a style="text-align: center;">
+        
+
+            <button class="rec" onclick="window.print()">Print</button>
+            
+        </a>
+        <a href="med.send.html" style="text-align: center;">
+            <button class="rec">Request</button>
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="feet">
+            <a href="welcome.html">
+                <button class="but2">Home</button>
+            </a>
+            <a href="order.html">
+                <button class="but2">Order</button>
+            </a>
+            <a href="messages.html">
+                <button class="but2">Messages</button>
+            </a>
+            <a href="account.html">
+                <button class="but2">Account</button>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
