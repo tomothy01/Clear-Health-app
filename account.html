@@ -35,13 +35,13 @@
     .but3 {
         background-color: rgb(38, 52, 245);
         border: none;
-        font-size: 100px;
+        font-size: 40px;
         border-radius: 50%;
-        width: 120px;
-        height: 120px;
+        width: 50px;
+        height: 50px;
         color: white;
         position: relative;
-        left: 150px;
+        left: 100px;
         top: 100px;
     }
 
@@ -52,11 +52,23 @@
         background-color: rgb(38, 52, 245);
         color: white;
         text-align: left;
-        font-size: 30px;
+        font-size: 25px;
         position: relative;
-        right: 10px;
-        width: 300px;
+        right: -20px;
+        width: 350px;
         height: 300px;
+        box-shadow: 0px, 40px, 0px, black;
+    }
+
+    .Save{
+        background-color: rgb(7, 205, 7);
+        font-size: 25px;
+        position: relative;
+        right: 180px;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 160px;
     }
 </style>
 
@@ -78,28 +90,33 @@
         <br>
         <br>
         <br>
-        <h1 style="font-size: 40px; position: relative; right: 110px;"><u>Account</u></h1>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-size: 40px; position: relative; right: 95px;"><u>Account</u></h1>
         <br>
         <button class="personal">
-            <label for="title">Title:</label>
-            <select name="title" id="prof">
-                <option value="sir">Sir</option>
-                <option value="dame">Dame</option>
-                <option value="Dr">Dr</option>
-                <option value="nurse">Nurse</option>
-                <option value="sister">Sister</option>
-            </select>
+            <div class="textin" style=" position: relative; top: -45px;">
+                <label for="title">Title:</label>
+                <select name="title" id="prof">
+                    <option value="sir">Sir</option>
+                    <option value="dame">Dame</option>
+                    <option value="Dr">Dr</option>
+                    <option value="nurse">Nurse</option>
+                    <option value="sister">Sister</option>
+                </select>
+                <br>
+                <label for="name">Name:<input type="text"></label>
+                <br>
+                <label for="age">Age:<input type="text"></label>
+                <br>
+                <label for="prof">Profession:<input type="text"></label>
+            </div>
             <br>
-            <label for="name">Name:<input type="text"></label>
-            <br>
-            <label for="age">Age:<input type="text"></label>
-            <br>
-            <label for="prof">Profession:<input type="text"></label>
-            <br>
+            <a>
+                <button class="Save">Save</button>
+            </a>
         </button>
-        <br>
-        <br>
-        <br>
         <br>
         <br>
         <br>
@@ -108,17 +125,17 @@
         <br>
         <div class="feet">
             <a href="welcome.html">
-            <button class="but2">Home</button>
-        </a>
-        <a href="order.html">
-            <button class="but2">Order</button>
-        </a>
-        <a href="messages.html">
-            <button class="but2">Messages</button>
-        </a>
-        <a href="account.html">
-            <button class="but2">Account</button>
-        </a>
+                <button class="but2">Home</button>
+            </a>
+            <a href="order.html">
+                <button class="but2">Order</button>
+            </a>
+            <a href="messages.html">
+                <button class="but2">Messages</button>
+            </a>
+            <a href="account.html">
+                <button class="but2">Account</button>
+            </a>
         </div>
     </div>
 </body>
