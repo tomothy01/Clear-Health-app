@@ -18,79 +18,89 @@
         height: 50px;
         color: white;
         position: relative;
-        left: 100px;
-        top: 80px;
+        left: 150px;
+        top: 20px;
+        box-shadow: 3px 4px 8px black;
     }
 
     .but2 {
         background-color: white;
         font-size: 26px;
-        position: relative;
-        right: 15px;
         border: none;
         border-radius: 5px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-shadow: 3px 4px 8px black;
+        position: relative;
+        top: -20px;
+        right: 140px;
+    }
+    details {
+        font-family: sans-serif;
+        font-size: 20px;
     }
 
-    .item {
-        border: none;
-        border-radius: 5px;
-        background-color: rgb(38, 52, 245);
-        color: white;
-        text-align: left;
-        font-size: 20px;
-        position: relative;
-        width: 370px;
-        height: 350px;
+    summary {
+        cursor: pointer;
+        font-weight: bold;
     }
+
+    .plans {
+        text-align: left;
+        margin: 0;
+        padding-left: 400px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .items{
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: left;
+        margin: 0;
+        padding-left: 400px;
+    }
+
+
 </style>
 
-<body style="background-color: lightgray;">
+<body style="background-color: rgb(255, 255, 255);">
     <div class="contents" style="text-align: center;">
         <a href="help.html">
             <button class="but3">?</button>
         </a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1 style="font-size: 40px; position: relative; right: 120px;"><u>History</u></h1>
-        <button class="item">
-            <p style="position: relative; top: -30px;">
-                Patient has a history of suffering from reoccuring seizures
-                and unexpected episodes of dropping in and out of conciousness.
-                They do have medication to treat these issues and it is something that they said
-                runs in their familiy history.<br><br>
-                Patient also suffers from a severe penut allergy but does carry an EPI pen at all times
-                which is by their side or in their bag.
-            </p>
-        </button>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <div class="feet">
-            <a href="medication.html">
-                <button class="but2">Home</button>
-            </a>
-            <a href="order.html">
-                <button class="but2">Order</button>
-            </a>
-            <a href="messages.html">
-                <button class="but2">Messages</button>
-            </a>
-            <a href="account.html">
-                <button class="but2">Account</button>
+            <a href="health.html">
+                <button class="but2">Back</button>
             </a>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-size: 35px; text-align: center; font-family: sans-serif;"><u>Medical history</u>
+        </h1>
+        <br>
+        <br>
+        <div class="items">
+            <div class="history">
+                <p><u>Chronic conditions</u></p>
+                <p>N/A</p>
+                <br>
+                <p><u>Past surgeries</u></p>
+                <p>Brain surgery: 14/05/2025</p>
+                <br>
+                <p><u>Chronic conditions</u></p>
+                <p>N/A</p>
+                <br>
+                <p><u>Major illness</u></p>
+                <p>N/A</p>
+                <br>
+                <p><u>Family medical history</u></p>
+                <p>Family has long running history of:</p>
+                <ol>
+                    <li>hayever in summer time</li>
+                    <li>short temper</li>
+                    <li>being passsed the hospital bill</li>
+                </ol>
     </div>
 </body>
 
